@@ -14,7 +14,7 @@ final class Dev_UIKitTests: XCTestCase {
     }
     
     func testEquality() {
-        let hieghtVal = 6
+        let hieghtVal = 7
         XCTAssertTrue(hieghtVal > 5)
     }
 }
