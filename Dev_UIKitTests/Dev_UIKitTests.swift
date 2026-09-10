@@ -9,7 +9,7 @@ import XCTest
 
 final class Dev_UIKitTests: XCTestCase {
     func testExample() {
-        let result = 2 + 2
-        XCTAssertEqual(result, 4)
+        let result = 2 + 3
+        XCTAssertEqual(result,5)
     }
 }
