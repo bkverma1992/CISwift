@@ -8,12 +8,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-    var age: Int = 20
+    var age: String = 20
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         makeFunction()
-        addData(2, 7)
+        let result = addData(2, 7)
+        print(result)
     }
 
     func makeFunction() {
