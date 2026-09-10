@@ -42,7 +42,8 @@ jobs:
             CODE_SIGNING_ALLOWED=NO \
             ENABLE_USER_SCRIPT_SANDBOXING=NO \
             clean build
-                  - name: Run Unit Tests
+            
+     - name: Run Unit Tests
         run: |
           xcodebuild \
             -workspace Dev_UIKit.xcworkspace \
