@@ -31,7 +31,7 @@ jobs:
       - name: Build iOS project
         run: |
           xcodebuild \
-            -workspace CISwift.xcworkspace \
+            -workspace Dev_UIKit.xcworkspace \
             -scheme Dev_UIKit \
             -sdk iphonesimulator \
             -destination 'generic/platform=iOS Simulator' \
