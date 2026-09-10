@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     }
 
     func makeFunction() {
-        print("Hello Bhupi 1")
+        print("Hello Bhupi hello dosto")
     }
 
 }
