@@ -13,10 +13,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         makeFunction()
+        addData(2, 7)
     }
 
     func makeFunction() {
         print("Hello Bhupi 1222")
+    }
+    
+    func addData(_ val1: Int, _ val2: Int) -> Int {
+       return val1 + val2
     }
 
 }
