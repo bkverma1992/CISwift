@@ -15,6 +15,8 @@ class ViewController: UIViewController {
         makeFunction()
         let result = addData(2, 7)
         print(result)
+        print(addData1(2, 7))
+
     }
 
     func makeFunction() {
@@ -23,6 +25,10 @@ class ViewController: UIViewController {
     
     func addData(_ val1: Int, _ val2: Int) -> Int {
        return val1 + val2
+    }
+    
+    func addData1(_ val1: Int, _ val2: Int) -> Bool {
+       return val1 > val2
     }
 
 }
