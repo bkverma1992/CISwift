@@ -13,10 +13,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
        
-        
+        // Map, Filter, Reduce
+        higherOrderFunction()
+        /*
         //Valuetype , Refrence Type
         valueTypeRefranceType()
-        /*
+      
         //Clouser
         makeClouser()
         //Optional Value
@@ -26,6 +28,19 @@ class ViewController: UIViewController {
         print(addData1(2, 7))
         makeFunction()
         */
+    }
+    // MARK: - Map, Filter, Reduce
+    func higherOrderFunction() {
+        // Map
+        var arr = [1,2,3,4,5,6]
+        var mapArr = arr.map{$0*2}
+        print(mapArr)
+        // Filter
+        var filterArr = arr.filter{$0 > 3}
+        print(filterArr)
+        
+        var reduceArr = arr.reduce(0, +)
+        print(reduceArr)
     }
     // MARK: - Valuetype , Refrence Type
     func valueTypeRefranceType() {
@@ -49,7 +64,6 @@ class ViewController: UIViewController {
         org2.name = "ABC"
         print(org.name ?? "")
         print(org2.name ?? "")
-        
         
     }
 
